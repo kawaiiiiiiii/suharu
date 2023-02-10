@@ -28,6 +28,8 @@ h2 {
 .container {
   display: flex;
   justify-content: center;
+  text-align: center;
+  margin-top: 100px;
 }
 .container1 {
   display: flex;

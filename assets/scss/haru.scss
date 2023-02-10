@@ -32,6 +32,9 @@ h2 {
 .container {
     display: flex;
     justify-content: center;
+    text-align: center;
+ margin-top: 100px;
+
     &1 {
         display: flex;
         justify-content: center;
@@ -46,10 +49,12 @@ h2 {
 
 }
 
+
 .col {
     margin: 10px 10px 10px 30px;
     border: 3px double #ddd;
     padding: 2px;
+   
 }
 
 //セクション３
@@ -58,7 +63,6 @@ section3 {
 }
 
 .syousai {
-
     margin: 10px 10px 10px 30px;
     border: 3px double #ddd;
     padding: 2px;
