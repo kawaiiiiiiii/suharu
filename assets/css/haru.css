@@ -1,0 +1,15 @@
+section1 {
+  text-align: center;
+}
+
+.box {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  color: black;
+  background-color: aquamarine;
+}/*# sourceMappingURL=haru.css.map */
