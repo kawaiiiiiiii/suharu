@@ -1,9 +1,12 @@
-section {
+h2 {
+  font-size: 40px;
   text-align: center;
+  margin: 50px;
 }
 
 .box {
   position: relative;
+  text-align: center;
 }
 
 .bottom-right {
@@ -12,4 +15,43 @@ section {
   right: 25px;
   color: black;
   background-color: aquamarine;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  color: black;
+  background-color: aquamarine;
+}
+
+.container {
+  display: flex;
+}
+.container1 {
+  display: flex;
+}
+
+.card {
+  margin: 20px;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 150px;
+  width: 70%;
+}
+
+.col {
+  margin: 10px 10px 10px 30px;
+  border: 3px double #ddd;
+  padding: 2px;
+}
+
+section3 {
+  text-align: center;
+}
+
+.syousai {
+  margin: 10px 10px 10px 30px;
+  border: 3px double #ddd;
+  padding: 2px;
 }/*# sourceMappingURL=haru.css.map */
