@@ -1,13 +1,16 @@
-// * {
-//     border: 1px solid gainsboro;
-// }
+* {
+    border: 1px solid gainsboro;
+}
 
 // コンテンツ幅
 $left-width : 20%;
 $right-width : 80%;
 
+.left{
+    width: $left-width;
+}
 .rigth{
-    width: $right-width;
+    width:$right-width ;
 }
 
 // 背景色
@@ -98,9 +101,7 @@ $b-cloor : #0B9B8A;
 }
 
 
-// KV画像
-.kv-rigth {
-    .kv-img {
-        width: $right-width;
-    }
+// KV画像------------------------------------------
+.kv-img{
+    display: flex;
 }
