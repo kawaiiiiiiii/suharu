@@ -1,0 +1,106 @@
+// * {
+//     border: 1px solid gainsboro;
+// }
+
+// コンテンツ幅
+$left-width : 20%;
+$right-width : 80%;
+
+.rigth{
+    width: $right-width;
+}
+
+// 背景色
+$b-cloor : #0B9B8A;
+
+// KV -----------------------------------------------
+.kv {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    border: 10px solid $b-cloor;
+    // border-top: 20px solid $b-cloor;
+    // background-color: $b-cloor;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // position: relative;
+    z-index: 1;
+
+
+    // KV-ひだり
+    nav {
+        width: $left-width;
+        padding: 10% 0;
+        background-color: $b-cloor;
+
+        img {
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20%;
+        }
+
+        li {
+            text-align: center;
+            // margin: 0 auto;
+            padding: 5%;
+
+            span {
+                display: block;
+            }
+
+            .nav-eng {
+                font-size: 1.5em;
+            }
+
+            .nav-jpn {
+                font-size: 0.5em;
+            }
+        }
+
+
+    }
+
+    // KV-みぎ
+    .kv-rigth {
+        width: $right-width;
+        min-height: 90vh;
+        border-bottom: 10px solid $b-cloor;
+        // border-radius: 10px;
+        background-color: transparent;
+
+        .photo {
+            text-align: right;
+            border: 1px solid;
+            border-radius: 5px;
+            width: 100px;
+            padding: 5px 5px;
+            text-align: center;
+            margin-right: 10px;
+            margin-top: 10px;
+            margin-left: auto;
+            background-color: aliceblue;
+            opacity: 0.8;
+        }
+
+        img {
+            width: 20%;
+            display: block;
+            margin-left: auto;
+            margin-right: 0px;
+            margin-bottom: 0px;
+            margin-top: 60vh;
+
+        }
+    }
+
+}
+
+
+// KV画像
+.kv-rigth {
+    .kv-img {
+        width: $right-width;
+    }
+}

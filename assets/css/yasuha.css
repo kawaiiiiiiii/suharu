@@ -1,1 +1,69 @@
-/*# sourceMappingURL=yasuha.css.map */
+.rigth {
+  width: 80%;
+}
+
+.kv {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  border: 10px solid #0B9B8A;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.kv nav {
+  width: 20%;
+  padding: 10% 0;
+  background-color: #0B9B8A;
+}
+.kv nav img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20%;
+}
+.kv nav li {
+  text-align: center;
+  padding: 5%;
+}
+.kv nav li span {
+  display: block;
+}
+.kv nav li .nav-eng {
+  font-size: 1.5em;
+}
+.kv nav li .nav-jpn {
+  font-size: 0.5em;
+}
+.kv .kv-rigth {
+  width: 80%;
+  min-height: 90vh;
+  border-bottom: 10px solid #0B9B8A;
+  background-color: transparent;
+}
+.kv .kv-rigth .photo {
+  text-align: right;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px 5px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: auto;
+  background-color: aliceblue;
+  opacity: 0.8;
+}
+.kv .kv-rigth img {
+  width: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-top: 60vh;
+}
+
+.kv-rigth .kv-img {
+  width: 80%;
+}/*# sourceMappingURL=yasuha.css.map */
