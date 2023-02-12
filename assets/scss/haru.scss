@@ -1,6 +1,6 @@
 //セクション1　
 h2 {
-    font-size: 40px;
+    font-size: 2em;
     text-align: center;
     margin: 50px;
 }
@@ -33,7 +33,7 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
- margin-top: 100px;
+    margin-top: 100px;
 
     &1 {
         display: flex;
@@ -54,7 +54,7 @@ h2 {
     margin: 10px 10px 10px 30px;
     border: 3px double #ddd;
     padding: 2px;
-   
+
 }
 
 //セクション３
@@ -69,14 +69,14 @@ section3 {
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 1em;
     margin: 50px;
 }
 
 .map {
     display: flex;
     text-align: center;
-    justify-content:space-around;
+    justify-content: space-around;
     margin-left: 300px;
 
 }
@@ -91,8 +91,7 @@ h5 {
         margin: 100px;
     }
 
-    &2{
+    &2 {
         margin: 30px;
     }
 }
-
