@@ -59,8 +59,10 @@ h2 {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin: 0 auto;
     margin-top: 100px;
-max-width: 780px;
+    width: $right-width;
+
 
     &1 {
         display: flex;
@@ -79,13 +81,20 @@ max-width: 780px;
     margin: 10px 10px 10px 30px;
     border: 3px double #ddd;
     padding: 2px;
+    width: $right-width;
+
+    &img {
+        display: block;
+        width: 100%;
+    }
+
 
 }
 
 //セクション３
 section3 {
     text-align: center;
-    
+
 }
 
 .syousai {
@@ -104,7 +113,7 @@ h5 {
     text-align: center;
     justify-content: space-around;
     margin-left: 300px;
-    
+
 }
 
 .add {
@@ -112,13 +121,14 @@ h5 {
     margin: 10px;
     font-size: 20px;
     padding-top: 50px;
-   
-}
-    &1 {
-        margin: 100px;
-    }
 
-    &2 {
-        margin: 30px;
-    }
+}
+
+&1 {
+    margin: 100px;
+}
+
+&2 {
+    margin: 30px;
+}
 }
