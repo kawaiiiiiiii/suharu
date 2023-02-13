@@ -409,21 +409,6 @@ main {
 
 }
 
-// フッター------------------------------------
-footer {
-    display: flex;
-
-    .rigth {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding-bottom: 10px;
-        height: 100px;
-        margin-top: $main-img-mtb;
-        background-color: rgb(153, 184, 107);
-    }
-}
 
 // はるさんのぞーん
 //セクション1　about
@@ -469,8 +454,8 @@ h2 {
     margin: 0 auto;
     margin-top: 100px;
     width: $right-width;
-
-
+    
+    
     &1 {
         display: flex;
         justify-content: center;
@@ -494,8 +479,8 @@ h2 {
         display: block;
         width: 100%;
     }
-
-
+    
+    
 }
 
 //セクション３
@@ -513,7 +498,7 @@ h2 {
     text-align: center;
     justify-content: space-around;
     margin-left: 300px;
-
+    
 }
 
 .add {
@@ -521,14 +506,30 @@ h2 {
     margin: 10px;
     font-size: 20px;
     padding-top: 50px;
-
-
-
-&1 {
-    margin: 100px;
-}
-
-&2 {
+    
+    
+    
+    &1 {
+        margin: 100px;
+    }
+    
+    &2 {
     margin: 30px;
 }
+}
+
+// フッター------------------------------------
+footer {
+    display: flex;
+
+    .rigth {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 10px;
+        height: 100px;
+        margin-top: $main-img-mtb;
+        background-color: rgb(153, 184, 107);
+    }
 }

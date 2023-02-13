@@ -133,6 +133,7 @@
 h2 {
   font-size: 2em;
   margin-top: 30px;
+  margin: 30px;
 }
 
 .sub {
@@ -260,20 +261,6 @@ main p {
   padding: 5px;
 }
 
-footer {
-  display: flex;
-}
-footer .rigth {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding-bottom: 10px;
-  height: 100px;
-  margin-top: 30px;
-  background-color: rgb(153, 184, 107);
-}
-
 section {
   width: 80%;
   margin: 0 auto;
@@ -343,11 +330,6 @@ h2 {
   padding: 2px;
 }
 
-h5 {
-  font-size: 1em;
-  margin: 50px;
-}
-
 .map {
   display: flex;
   text-align: center;
@@ -366,4 +348,18 @@ h5 {
 }
 .add2 {
   margin: 30px;
+}
+
+footer {
+  display: flex;
+}
+footer .rigth {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10px;
+  height: 100px;
+  margin-top: 30px;
+  background-color: rgb(153, 184, 107);
 }/*# sourceMappingURL=yasuha.css.map */
