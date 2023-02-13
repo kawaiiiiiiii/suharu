@@ -93,7 +93,7 @@
 .rigth .kv-img .kuina::before {
   content: "ヤンバルクイナに会いに行こう！";
   font-size: 2em;
-  color: aqua;
+  color: white;
   position: absolute;
   z-index: 1;
   top: 10%;
@@ -127,6 +127,17 @@
   margin-left: auto;
   background-color: aliceblue;
   opacity: 0.8;
+  cursor: pointer;
+}
+
+.close-btn1 {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: gray;
+  border-radius: 50px;
+  box-shadow: 5px 5px 8px;
+  width: 200px;
   cursor: pointer;
 }
 
@@ -361,5 +372,5 @@ footer .rigth {
   padding-bottom: 10px;
   height: 100px;
   margin-top: 30px;
-  background-color: rgb(153, 184, 107);
+  background-color: #0B9B8A;
 }/*# sourceMappingURL=yasuha.css.map */

@@ -171,34 +171,35 @@ $b-cloor : #0B9B8A;
 
 // KV画像------------------------------------------
 .rigth {
-.kv-img {
-    display: flex;
-    height: 100vh;
+    .kv-img {
+        display: flex;
+        height: 100vh;
 
-    // &::before {
-    //     position: absolute;
-    //     border: 10px solid $b-cloor;
-    //     border-bottom: 15px solid $b-cloor ;
-    //     top: 0;
-    //     left: 0;
-    // }
+        // &::before {
+        //     position: absolute;
+        //     border: 10px solid $b-cloor;
+        //     border-bottom: 15px solid $b-cloor ;
+        //     top: 0;
+        //     left: 0;
+        // }
 
 
         height: 100vh;
         background-image: url(../../img/top_img.jpg);
         background-size: cover;
+
         // position: relative;
         .kuina::before {
             content: "ヤンバルクイナに会いに行こう！";
             font-size: 2em;
-            color: aqua;
+            color: white;
             position: absolute;
             z-index: 1;
             top: 10%;
             right: 15%;
 
         }
-        
+
 
         h1 {
             font-size: 2.5em;
@@ -243,6 +244,16 @@ $b-cloor : #0B9B8A;
 $main-img-mtb : 30px; //メインイメージマージン上下
 $section-width : 80%;
 
+.close-btn1 {
+    text-align: center;
+    margin-top: $main-img-mtb;
+    padding: 10px;
+    background-color: gray;
+    border-radius: 50px;
+    box-shadow: 5px 5px 8px;
+    width: 200px;
+    cursor: pointer;
+}
 h2 {
     font-size: 2em;
     margin-top: $main-img-mtb;
@@ -412,10 +423,11 @@ main {
 
 // はるさんのぞーん
 //セクション1　about
-section{
+section {
     width: $right-width;
     margin: 0 auto;
 }
+
 h2 {
     font-size: 2em;
     text-align: center;
@@ -454,8 +466,8 @@ h2 {
     margin: 0 auto;
     margin-top: 100px;
     width: $right-width;
-    
-    
+
+
     &1 {
         display: flex;
         justify-content: center;
@@ -479,8 +491,9 @@ h2 {
         display: block;
         width: 100%;
     }
-    
-    
+
+
+
 }
 
 //セクション３
@@ -498,7 +511,7 @@ h2 {
     text-align: center;
     justify-content: space-around;
     margin-left: 300px;
-    
+
 }
 
 .add {
@@ -506,16 +519,16 @@ h2 {
     margin: 10px;
     font-size: 20px;
     padding-top: 50px;
-    
-    
-    
+
+
+
     &1 {
         margin: 100px;
     }
-    
+
     &2 {
-    margin: 30px;
-}
+        margin: 30px;
+    }
 }
 
 // フッター------------------------------------
@@ -530,6 +543,6 @@ footer {
         padding-bottom: 10px;
         height: 100px;
         margin-top: $main-img-mtb;
-        background-color: rgb(153, 184, 107);
+        background-color: $b-cloor;
     }
 }
