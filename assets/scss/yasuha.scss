@@ -246,6 +246,7 @@ $section-width : 80%;
 h2 {
     font-size: 2em;
     margin-top: $main-img-mtb;
+    margin: 30px;
 }
 
 .sub {
@@ -500,10 +501,7 @@ h2 {
     padding: 2px;
 }
 
-h5 {
-    font-size: 1em;
-    margin: 50px;
-}
+
 
 .map {
     display: flex;
