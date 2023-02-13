@@ -194,7 +194,7 @@ $b-cloor : #0B9B8A;
             color: aqua;
             position: absolute;
             z-index: 1;
-            top: 20%;
+            top: 10%;
             right: 15%;
 
         }
@@ -425,11 +425,16 @@ footer {
 }
 
 // はるさんのぞーん
-//セクション1　
+//セクション1　about
+section{
+    width: $right-width;
+    margin: 0 auto;
+}
 h2 {
     font-size: 2em;
     text-align: center;
     margin: 50px;
+    margin-top: $main-img-mtb;
 }
 
 .box {

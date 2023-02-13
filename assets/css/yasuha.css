@@ -96,7 +96,7 @@
   color: aqua;
   position: absolute;
   z-index: 1;
-  top: 20%;
+  top: 10%;
   right: 15%;
 }
 .rigth .kv-img h1 {
@@ -274,10 +274,16 @@ footer .rigth {
   background-color: rgb(153, 184, 107);
 }
 
+section {
+  width: 80%;
+  margin: 0 auto;
+}
+
 h2 {
   font-size: 2em;
   text-align: center;
   margin: 50px;
+  margin-top: 30px;
 }
 
 .box {
