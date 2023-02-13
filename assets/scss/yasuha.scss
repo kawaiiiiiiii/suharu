@@ -157,18 +157,20 @@ $b-cloor : #0B9B8A;
     .photo-box {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: start;
         margin-top: 15px;
     }
 
     img {
         display: block;
+        width: 30%;
         margin: 10px;
 
     }
 }
 
 // KV画像------------------------------------------
+.rigth {
 .kv-img {
     display: flex;
     height: 100vh;
@@ -182,12 +184,21 @@ $b-cloor : #0B9B8A;
     // }
 
 
-    .rigth {
         height: 100vh;
-        background-image: url(https://images.unsplash.com/photo-1517840901100-8179e982acb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8JUUzJTgzJTlCJUUzJTgzJTg2JUUzJTgzJUFCfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=2000&q=60);
+        background-image: url(../../img/top_img.jpg);
         background-size: cover;
         // position: relative;
+        .kuina::before {
+            content: "ヤンバルクイナに会いに行こう！";
+            font-size: 2em;
+            color: aqua;
+            position: absolute;
+            z-index: 1;
+            top: 20%;
+            right: 15%;
 
+        }
+        
 
         h1 {
             font-size: 2.5em;
@@ -205,16 +216,6 @@ $b-cloor : #0B9B8A;
             z-index: 3;
         }
 
-        .kuina::before {
-            content: "ヤンバルクイナに会いに行こう！";
-            font-size: 2em;
-            color: aqua;
-            position: absolute;
-            z-index: 1;
-            bottom: 10%;
-            right: 15%;
-
-        }
 
         .photo-btn {
             position: fixed;
