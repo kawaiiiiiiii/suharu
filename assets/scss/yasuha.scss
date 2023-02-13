@@ -1,5 +1,5 @@
 * {
-    border: 1px solid gainsboro;
+    // border: 1px solid gainsboro;
 }
 
 ;
@@ -422,4 +422,110 @@ footer {
         margin-top: $main-img-mtb;
         background-color: rgb(153, 184, 107);
     }
+}
+
+// はるさんのぞーん
+//セクション1　
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 50px;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    color: black;
+    background-color: aquamarine;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    color: black;
+    background-color: aquamarine;
+}
+
+
+//セクション２
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    width: $right-width;
+
+
+    &1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.card {
+    margin: 20px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+.col {
+    margin: 10px 10px 10px 30px;
+    border: 3px double #ddd;
+    padding: 2px;
+    width: $right-width;
+
+    &img {
+        display: block;
+        width: 100%;
+    }
+
+
+}
+
+//セクション３
+
+.syousai {
+    margin: 10px 10px 10px 30px;
+    border: 3px double #ddd;
+    padding: 2px;
+}
+
+h5 {
+    font-size: 1em;
+    margin: 50px;
+}
+
+.map {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 300px;
+
+}
+
+.add {
+    flex-direction: row;
+    margin: 10px;
+    font-size: 20px;
+    padding-top: 50px;
+
+
+
+&1 {
+    margin: 100px;
+}
+
+&2 {
+    margin: 30px;
+}
 }
