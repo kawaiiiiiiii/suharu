@@ -1,3 +1,22 @@
+// 背景色
+$b-cloor : #0B9B8A;
+main{
+    display: flex;
+}
+// コンテンツ幅
+$left-width : 20%;
+$right-width : 80%;
+$section-width : 80%;//←mainタグ　右側のコンテンツ幅
+
+.left {
+    width: $left-width;
+    background-color: $b-cloor;
+}
+
+.rigth {
+    width: $right-width ;
+}
+
 //セクション1　
 h2 {
     font-size: 2em;

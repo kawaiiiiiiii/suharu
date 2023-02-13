@@ -1,3 +1,16 @@
+main {
+  display: flex;
+}
+
+.left {
+  width: 20%;
+  background-color: #0B9B8A;
+}
+
+.rigth {
+  width: 80%;
+}
+
 h2 {
   font-size: 40px;
   text-align: center;
