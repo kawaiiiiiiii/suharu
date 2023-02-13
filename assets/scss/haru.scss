@@ -1,12 +1,17 @@
 // 背景色
 $b-cloor : #0B9B8A;
-main{
+
+main {
     display: flex;
 }
+
 // コンテンツ幅
 $left-width : 20%;
 $right-width : 80%;
-$section-width : 80%;//←mainタグ　右側のコンテンツ幅
+$section-width : 80%; //←mainタグ　右側のコンテンツ幅
+
+
+
 
 .left {
     width: $left-width;
@@ -16,6 +21,8 @@ $section-width : 80%;//←mainタグ　右側のコンテンツ幅
 .rigth {
     width: $right-width ;
 }
+
+
 
 //セクション1　
 h2 {
@@ -53,6 +60,7 @@ h2 {
     justify-content: center;
     text-align: center;
     margin-top: 100px;
+max-width: 780px;
 
     &1 {
         display: flex;
@@ -64,8 +72,6 @@ h2 {
     margin: 20px;
     justify-content: space-around;
     text-align: center;
-    width: 70%;
-
 }
 
 
@@ -79,6 +85,7 @@ h2 {
 //セクション３
 section3 {
     text-align: center;
+    
 }
 
 .syousai {
@@ -97,15 +104,16 @@ h5 {
     text-align: center;
     justify-content: space-around;
     margin-left: 300px;
-
+    
 }
 
 .add {
     flex-direction: row;
-    margin: 100px;
-    font-size: 25px;
+    margin: 10px;
+    font-size: 20px;
     padding-top: 50px;
-
+   
+}
     &1 {
         margin: 100px;
     }
